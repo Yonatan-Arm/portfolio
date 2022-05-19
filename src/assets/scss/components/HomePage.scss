@@ -1,0 +1,76 @@
+.App{
+  padding: 40px 80px;
+  color: #fff;
+  background: radial-gradient(circle,#212121 0%,#1d1d1d 56%,#1d1d1d 100%);
+}
+.main-app{
+  gap: 20px;
+}
+
+.nav{
+  height: 80px;
+  margin-bottom: 20px;
+  background-color: #212121b3;
+  .nav-feature{
+    gap: 10px;
+  }
+  span{
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: sans-serif;
+  }
+  span:hover{
+    cursor: pointer;
+    color:#00ffbb;
+  }
+
+}
+.hero{
+  height: 70vh;
+  padding-top: 50px;
+  gap: 20px;
+  img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 50%;
+  }
+  .info{
+    font-size: 1.2rem;
+    gap: 5px;
+  }
+  button{
+    margin-top: 15px;
+    width: 130px;
+    height: 40px;
+    border-radius: 32px;
+    background-color:#00ffbb;
+    font-size: 1rem;
+    font-weight: 400;
+
+  }
+}
+.user-container {
+  background-color: $clr7;
+
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+
+  color: $clr5;
+  &.flex {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .movement-container{
+    margin: 2rem;
+    h2{
+    text-align: center;
+    }
+  }
+}
+
+
+

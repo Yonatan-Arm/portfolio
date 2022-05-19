@@ -1,0 +1,33 @@
+.my-details{
+    padding: 20px;
+    h2{
+        margin-bottom: 20px;
+        font-size: 1.5rem;
+    }
+    img{
+        width: 40%;
+        height: 100%;
+    }
+
+    .details-container{
+        gap: 10%;
+
+    }
+    .details-info{
+        gap: 10px;
+        p{
+            width: 200px;
+            font-size: 1rem;
+            font-weight: 400;
+        }
+        a{
+            font-size: 1rem;
+            font-weight: 500;
+        }
+        a:hover{
+            color: #00ffbb;
+            font-size: 1.1rem;
+     
+        }
+    }
+}
