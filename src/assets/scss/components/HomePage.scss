@@ -45,14 +45,28 @@ position: relative;
   padding-top: 50px;
   gap: 20px;
   img{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     object-fit: contain;
     border-radius: 50%;
+    z-index: 20;
+    position: relative;
   }
   .info{
     font-size: 1.2rem;
     gap: 5px;
+   
+    span{
+      font-size: 2rem;
+    }
+  }
+  .back-profile-continer{
+    position: relative;
+  }
+  .back-profile{
+    height: rem(200px);
+    position: absolute;
+    width:rem(200px);
   }
   button{
     margin-top: 15px;
