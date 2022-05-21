@@ -19,14 +19,24 @@ position: relative;
   .nav-feature{
     gap: 10px;
   }
-  span{
+  button{
     font-size: 1rem;
     font-weight: 500;
     font-family: sans-serif;
+    background: transparent;
+    color: inherit;
+    border: unset;
   }
-  span:hover{
+  button:hover{
     cursor: pointer;
     color:$clr6;
+  }
+  img{
+    @include for-mobile-layout {
+      width: rem(100px);
+    }
+    height: 100%;
+    width: rem(150px);
   }
 
 }
@@ -49,9 +59,15 @@ position: relative;
     width: 130px;
     height: 40px;
     border-radius: 32px;
-    background-color:$clr6;
     font-size: 1rem;
     font-weight: 400;
+    background-color: transparent;
+    color: #fff;
+
+  }
+  button:hover{
+    background-color:$clr6;
+    color: #222;
 
   }
 }

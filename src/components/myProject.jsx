@@ -1,7 +1,4 @@
 import React, { Component } from "react";
-import { Swiper,SwiperSlide } from "swiper/react";
-
-
 import { projectService } from "../service/project.service.js";
 import { ProjectPreview } from "../components/ProjectPreview";
 
