@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8b19d08e.css",
-    "main.js": "/portfolio/static/js/main.e18b3eae.js",
+    "main.css": "/portfolio/static/css/main.0213bf19.css",
+    "main.js": "/portfolio/static/js/main.34b0e17f.js",
     "static/js/787.cda612ba.chunk.js": "/portfolio/static/js/787.cda612ba.chunk.js",
     "static/media/profile-link.jpeg": "/portfolio/static/media/profile-link.12216ce1b2304c12eb60.jpeg",
     "static/media/Yonatan_Arm_Resume.pdf": "/portfolio/static/media/Yonatan_Arm_Resume.3cdfe2bcfe6e925b6edb.pdf",
     "static/media/profile.svg": "/portfolio/static/media/profile.ca6058504c91f863e1064eab7868cbd1.svg",
+    "static/media/logo.svg": "/portfolio/static/media/logo.d43a893a7b0943e93f8d7cb09892aca7.svg",
+    "static/media/linkdinLogo.svg": "/portfolio/static/media/linkdinLogo.f43e9e3df4f53d42ea7600b6e308f67d.svg",
+    "static/media/githubLogo.svg": "/portfolio/static/media/githubLogo.98e6be83f35ea8b8a767b5ac32aa330b.svg",
+    "static/media/whatsappLogo.svg": "/portfolio/static/media/whatsappLogo.8c06f84bc51cc83eb5caff31ded8fc70.svg",
     "index.html": "/portfolio/index.html",
-    "main.8b19d08e.css.map": "/portfolio/static/css/main.8b19d08e.css.map",
-    "main.e18b3eae.js.map": "/portfolio/static/js/main.e18b3eae.js.map",
+    "main.0213bf19.css.map": "/portfolio/static/css/main.0213bf19.css.map",
+    "main.34b0e17f.js.map": "/portfolio/static/js/main.34b0e17f.js.map",
     "787.cda612ba.chunk.js.map": "/portfolio/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b19d08e.css",
-    "static/js/main.e18b3eae.js"
+    "static/css/main.0213bf19.css",
+    "static/js/main.34b0e17f.js"
   ]
 }
