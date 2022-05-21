@@ -1,11 +1,12 @@
 import React from 'react'
 //! TO CONNECT TO REDUX USE
 import { connect} from 'react-redux'
-// import { loadTasks } from '../store/actions/tasksActions'
 import About from '../components/About'
 import Details from '../components/details'
 import Specialities from '../components/Specialities'
 import MyProject from '../components/myProject'
+import Footer from '../components/Footer'
+import Contact from '../components/Contact'
 
 export const _HomePage = () => {
   //! REDUX CONNECTION
@@ -15,6 +16,8 @@ export const _HomePage = () => {
     <Details />
     <Specialities />
     <MyProject />
+    <Contact />
+    <Footer />
   </div> 
   )
 }

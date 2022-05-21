@@ -1,4 +1,8 @@
 .App{
+  @include for-mobile-layout {
+    padding: 20px
+  }
+
   padding: 40px 80px;
   color: #fff;
   background: radial-gradient(circle,#212121 0%,#1d1d1d 56%,#1d1d1d 100%);
@@ -8,6 +12,7 @@
 }
 
 .nav{
+  padding: 0 10px;
   height: 80px;
   margin-bottom: 20px;
   background-color: #212121b3;

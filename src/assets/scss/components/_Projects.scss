@@ -1,4 +1,8 @@
 .projects{
+    @include for-mobile-layout {
+        padding: 10px
+      }
+    
     margin-top: rem(100px);
     padding: rem(20px);
     width: 100%;
@@ -21,7 +25,19 @@
   }
 
 .project-card{
-
+    @include for-mobile-layout {
+        .project-card-front{
+        width: 70vw !important;
+        }
+        img{
+            flex: 1 1 rem(100px);
+            aspect-ratio: 1 / 1;
+        }
+        h2{
+            flex: 1 1 rem(100px);
+          
+      }
+    }
   transform-style: preserve-3d;
   transition: transform .5s;
   border-radius: rem(8px);
@@ -49,6 +65,11 @@
     }
 }
 .project-card:hover{
+    @include for-mobile-layout {
+        .project-info{
+            width: 70vw !important;
+        }
+    }
     transform: rotateY(180deg);
     transition: all .5s ;
     box-shadow: .4rem .4rem .4rem .4rem #00ffbba7;
