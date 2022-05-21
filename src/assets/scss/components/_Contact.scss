@@ -1,5 +1,73 @@
-.contact{
+.contact {
     margin-top: rem(100px);
-    text-align: center;
+    margin-bottom: 20%;
+    @include for-normal-layout {
+        margin-bottom: 40% !important;
+    }
+    @include for-tablet-layout {
+        margin-bottom: 50% !important;
+    }
+    @include for-mobile-layout {
+        margin-bottom: 80% !important;
+        form {
+            width: rem(300px) !important;
+        }
+      }
+
+ 
+    h1{
+        border-bottom: 5px solid #fff;
+    }
+    span{
+        margin-top: 20px;
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: $clr6;
+    }
+
+    form {
+       margin-top: rem(50px);
+       width: rem(500px);
+        gap: 5px;
+        
+        input {
+            border-radius: 12px;
+            height: 30px;
+            font-size: 1rem;
+        }
+        input::placeholder {
+            padding-left: 5px;
+        }
+        input,textarea{
+            color:rgba(255, 255, 255, 0.719);
+            font-size: 1rem;
+            font-weight: 400;
+            background: $clr2;
+        }
+        input,textarea:focus-visible{
+           outline: none;
+
+        }
+
+        textarea{
+            border-radius: 8px;
+            height: 150px;
+        }
+        button{
+            background-color: transparent;
+            height: 30px;
+            width: 80px;
+            color: rgba(255, 255, 255, 0.719);
+            font-size: 1rem;
+            font-weight: 400;
+            margin-top: 20px;
+            border-radius: 7px;
+        }
+        button:hover{
+            background-color: $clr6;
+            color: #222;
+            transition: all .5s;
+        }
+    }
 
 }

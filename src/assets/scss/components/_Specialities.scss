@@ -14,7 +14,7 @@
         box-shadow: 0 1.6rem 2.4rem rgb(0 0 0 / 25%);
         padding: 1.6rem 4.3rem 2.2rem 3.5rem;
         border-radius: 8px;
-        border-bottom: 10px solid #00ffbba7 ;
+        border-bottom: 10px solid $clr6 ;
         margin-bottom: rem(20px);
         cursor: pointer;
         h3{
@@ -23,7 +23,7 @@
             font-weight: 600;
         }
         .text-primary{
-            color:#00ffbba7;
+            color:$clr6;
         }
         p{
             font-size: 1rem;
@@ -31,7 +31,8 @@
         }
     }
     .specialities-card:hover{
-        background-color: #00ffbba7;
+        background-color: $clr6;
+        color: #222;
     }
 
 }
