@@ -52,13 +52,20 @@ position: relative;
     z-index: 20;
     position: relative;
   }
+  img:hover{
+    transform: rotate(360deg);
+    transition: transform 1s;
+  }
   .info{
     font-size: 1.2rem;
     gap: 5px;
-   
+    transition: text-shadow .1s;
     span{
       font-size: 2rem;
     }
+  }
+  .info:hover{
+    text-shadow: red -2px 0 , cyan 2px 0;
   }
   .back-profile-continer{
     position: relative;

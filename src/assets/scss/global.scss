@@ -6,15 +6,12 @@
 @import 'setup/mixins';
 
 // Basics
-@import 'basics/typography';
 @import 'basics/base';
 @import 'basics/helpers';
 @import 'basics/layout';
-@import 'basics/animations';
 
 // Pages
 @import 'components/HomePage.scss';
-@import 'components/TaskApp.scss';
 @import 'components/Details';
 @import 'components/Specialities';
 @import 'components/Projects';

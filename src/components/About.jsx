@@ -1,9 +1,11 @@
 import React from "react";
+import Fade   from 'react-reveal/Zoom';
 const moveToContact = () => {
   window.scrollTo(0, 3000);
 };
 export default function About() {
   return (
+    <Fade left>
     <div className="hero flex justify-center wrap ">
       <div className="flex column info">
         <span className="hero-name"> Hi There 👋 I'm Yonatan Arm</span>
@@ -31,5 +33,6 @@ export default function About() {
         </div>
       </div>
     </div>
+    </Fade>
   );
 }

@@ -1,10 +1,16 @@
 import React from "react";
+import Flash from 'react-reveal/Flash';
+import Spin from "react-reveal/Spin";
+
 
 export default function Specialities() {
   return (
       <div className="my-specialities flex column align-center">
+         <Flash>
         <h1> My Specialities </h1>
+        </Flash>
       <div className="flex wrap align-center specialities-container">
+        <Spin>
       <div className="specialities-card  flex column justify-center align-center">
       <span className="fa-stack fa-4x">
               <i className="fa fa-circle fa-stack-2x text-primary"></i>
@@ -39,6 +45,7 @@ export default function Specialities() {
           web applications using the latest web technologies.
         </p>
       </div>
+      </Spin>
       </div>
     </div>
   );

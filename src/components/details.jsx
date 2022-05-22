@@ -1,11 +1,16 @@
 import React from "react";
 import devloperIcon from "../assets/imgs/profile.svg";
 import resume from "../assets/imgs/Yonatan_Arm_Resume.pdf";
+import HeadShake from 'react-reveal/HeadShake';
+import Fade   from 'react-reveal/Zoom';
 
 export default function details() {
   return (
+    <Fade left>
     <div className="my-details flex column justify-center align-center">
+      <HeadShake>
       <h2> About Me</h2>
+      </HeadShake>
       <div className="flex wrap justify-center details-container">
         <img src={devloperIcon} />
         <div className="details-info flex column justify-center align-center">
@@ -24,5 +29,6 @@ export default function details() {
         </div>
       </div>
     </div>
+    </Fade>
   );
 }

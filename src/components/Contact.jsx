@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import { useForm } from '../hooks/useForm'
+import Wobble from 'react-reveal/Wobble';
 
 export default function Contact() {
     const [user, handleChange, setUser] = useForm(null)
@@ -26,7 +27,9 @@ export default function Contact() {
       if (!user) return <div>Loading...</div>
   return (
     <div className='contact flex column align-center justify-center'>
+        <Wobble>
         <h1>Contact</h1>
+        </Wobble>
         <span>Have a question or want to work together?</span>
         <form className='flex column' onSubmit={e=> {sendMsg(e)}}>
          <input placeholder='Name' onChange={handleChange} value={user.name}  type="text" name="name" /> 
