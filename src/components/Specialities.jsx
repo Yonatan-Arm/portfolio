@@ -1,6 +1,7 @@
 import React from "react";
 import Flash from 'react-reveal/Flash';
-import Spin from "react-reveal/Spin";
+import Tada from 'react-reveal/Tada';
+
 
 
 export default function Specialities() {
@@ -10,7 +11,7 @@ export default function Specialities() {
         <h1> My Specialities </h1>
         </Flash>
       <div className="flex wrap align-center specialities-container">
-        <Spin>
+        <Tada>
       <div className="specialities-card  flex column justify-center align-center">
       <span className="fa-stack fa-4x">
               <i className="fa fa-circle fa-stack-2x text-primary"></i>
@@ -45,7 +46,7 @@ export default function Specialities() {
           web applications using the latest web technologies.
         </p>
       </div>
-      </Spin>
+      </Tada>
       </div>
     </div>
   );
