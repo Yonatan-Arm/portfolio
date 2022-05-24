@@ -2,14 +2,9 @@
     @include for-mobile-layout {
         padding: 10px
       }
-    
-    margin-top: rem(100px);
     padding: rem(20px);
     width: 100%;
     overflow-x: scroll;
-    h1{
-        margin-bottom: rem(20px);
-    }
     .projects-container{
         gap: rem(15px);       
         padding: rem(10px);
@@ -26,7 +21,10 @@
   .project-section{
       h1{
           text-align: center;
+          font-size: 2rem;
+          margin-bottom: rem(20px);
       }
+      margin-top: rem(80px);
   }
 
 .project-card{
@@ -37,21 +35,22 @@
         img{
             flex: 1 1 rem(100px);
             aspect-ratio: 1 / 1;
+            object-fit: cover;
         }
         h2{
             flex: 1 1 rem(100px);
           
       }
     }
-  transform-style: preserve-3d;
+//   transform-style: preserve-3d;
   transition: transform .5s;
   border-radius: rem(8px);
   padding: 1rem;
     .project-card-front{
-        width: rem(300px);
+        width: rem(250px);
         height: 100%;
         img{
-            flex: 1 1 rem(120px);
+            flex: 1 1 rem(150px);
             aspect-ratio: 1 / 1;
         }
         h2{
@@ -76,7 +75,6 @@
         }
     }
     transform: rotateY(180deg);
-    transition: all .5s ;
     box-shadow: .4rem .4rem .4rem .4rem $clr6;
     .project-card-front{
         display: none;

@@ -28,7 +28,7 @@
     form {
        margin-top: rem(50px);
        width: rem(500px);
-        gap: 5px;
+        gap: 8px;
         
         input {
             border-radius: 12px;
@@ -62,18 +62,16 @@
             height: 150px;
         }
         button{
-            background-color: transparent;
+            background-color:  $clr6;
             height: 30px;
             width: 80px;
-            color: rgba(255, 255, 255, 0.719);
+            color: #222;
             font-size: 1rem;
             font-weight: 400;
             margin-top: 20px;
             border-radius: 7px;
         }
-        button:hover{
-            background-color: $clr6;
-            color: #222;
+        button:hover{          
             transform: rotate(360deg);
             transition: all 1s;
         }

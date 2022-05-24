@@ -7,7 +7,7 @@ import Fade   from 'react-reveal/Zoom';
 export default function details() {
   return (
     <Fade left>
-    <div className="my-details flex column justify-center align-center">
+    <div className="my-details flex column align-center">
       <HeadShake>
       <h1> About Me</h1>
       </HeadShake>

@@ -51,6 +51,7 @@ const PROJECTS = [
       title:'Pacman',
       description: 'The player controls a character through an enclosed maze, trying to collect all coins without the enemies killing it',
       label:'Frontend',
+      gameUrl:'https://yonatan-arm.github.io/pacman/',
       tech:['JavaScript', 'Html' , 'Css']
     },
     {

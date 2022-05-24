@@ -1,94 +1,136 @@
-.App{
+.App {
   @include for-mobile-layout {
     padding: 20px
   }
-position: relative;
+
+  position: relative;
   padding: 40px 80px;
   color: #fff;
-  background: radial-gradient(circle,#212121 0%,#1d1d1d 56%,#1d1d1d 100%);
-}
-.main-app{
-  gap: 20px;
+  background: radial-gradient(circle, #212121 0%, #1d1d1d 56%, #1d1d1d 100%);
 }
 
-.nav{
+.main-app {
+  gap: 20px;
+}
+.hero-img{
+  background-size: cover;
+  left: 0;
+  top:0;
+  width: 100%;
+  background-position: 50% 100%;
+  position: absolute;
+  height: 85vh;
+  @include for-mobile-layout {
+    height: 95vh !important;
+  }
+}
+
+.nav {
   padding: 0 10px;
   height: 80px;
   margin-bottom: 20px;
-  .nav-feature{
+  z-index: 20;
+  position: relative;
+  .nav-feature {
     gap: 10px;
   }
-  button{
+
+  button {
     font-size: 1.2rem;
     background: transparent;
     color: inherit;
     border: unset;
   }
-  button:hover{
+
+  button:hover {
     cursor: pointer;
-    color:$clr6;
+    color: $clr6;
   }
-  img{
+
+  img {
     @include for-mobile-layout {
       width: rem(100px);
     }
     height: 100%;
     width: rem(150px);
   }
-
 }
-.hero{
-  height: 70vh;
-  padding-top: 50px;
+
+.hero {
+  min-height: 60vh;
+  padding: 20px;
   gap: 20px;
-  img{
-    width: 150px;
-    height: 150px;
-    object-fit: contain;
-    border-radius: 50%;
-    z-index: 20;
-    position: relative;
-  }
-  img:hover{
-    transform: rotate(360deg);
-    transition: transform 1s;
-  }
-  .info{
-    font-size: 1.2rem;
-    gap: 5px;
-    transition: text-shadow .1s;
-    span{
-      font-size: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  justify-content: space-around;
+  .profile-container {
+    margin-top:rem(30px);
+    img {
+      @include for-mobile-layout {
+       top: 20px;
+       right: 5px;
+       position: absolute;
+      }
+      @include for-wide-layout {
+       top: 20px;
+       right: 5px;
+       position: absolute;
+       width: rem(150px);
+       height: rem(150px);
+      }
+      width: rem(200px);
+      height: rem(200px);
+      object-fit: cover;
+      border-radius: 50%;
+      z-index: 20;
+      position: relative;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
+
+    img:hover {
+      transform: rotate(360deg);
+      transition: transform 1s;
     }
   }
-  .info:hover{
-    text-shadow: red -2px 0 , cyan 2px 0;
+
+  .hero-name {
+    font-size: 2.5rem;
+    width: 60%;
   }
-  .back-profile-continer{
-    position: relative;
+
+  .info {
+    font-size: 1.5rem;
+    gap: 5px;
+    transition: text-shadow .1s;
+    padding-top: rem(50px);
+
+    img {
+      margin-top: rem(20px);
+      width: rem(200px);
+      height: rem(200px);
+    }
+
+    span {
+      font-size: 2.5rem;
+    }
   }
-  .back-profile{
-    height: rem(200px);
-    position: absolute;
-    width:rem(200px);
+
+  .info:hover {
+    text-shadow: red -2px 0, cyan 2px 0;
   }
-  button{
+
+  button {
     margin-top: 15px;
     width: 130px;
     height: 40px;
     border-radius: 32px;
     font-size: 1rem;
     font-weight: 400;
-    background-color: transparent;
-    color: #fff;
-
-  }
-  button:hover{
-    background-color:$clr6;
+    background-color: $clr6;
     color: #222;
-
   }
 }
+
 .user-container {
   background-color: $clr7;
 
@@ -97,19 +139,18 @@ position: relative;
   flex-direction: column;
 
   color: $clr5;
+
   &.flex {
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
 
-  .movement-container{
+  .movement-container {
     margin: 2rem;
-    h2{
-    text-align: center;
+
+    h2 {
+      text-align: center;
     }
   }
 }
-
-
-

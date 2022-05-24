@@ -8,7 +8,7 @@ export function ProjectPreview({ project }) {
           <h2>{project.title}</h2>
           <img
             src={
-              "https://res.cloudinary.com/yonatan-cajan22/image/upload/v1652882213/protfolio/" +
+              "https://res.cloudinary.com/yonatan-cajan22/image/upload/v1653388477/protfolio/" +
               project.title +
               ".jpg"
             }
