@@ -23,6 +23,11 @@
     background: $clr6; 
     border-radius: 10px;
   }
+  .project-section{
+      h1{
+          text-align: center;
+      }
+  }
 
 .project-card{
     @include for-mobile-layout {

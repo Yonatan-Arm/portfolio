@@ -9,7 +9,7 @@ export default function details() {
     <Fade left>
     <div className="my-details flex column justify-center align-center">
       <HeadShake>
-      <h2> About Me</h2>
+      <h1> About Me</h1>
       </HeadShake>
       <div className="flex wrap justify-center details-container">
         <img src={devloperIcon} />

@@ -19,16 +19,16 @@ const PROJECTS = [
       title:'MisterBitcoin-Angular',
       description: 'An app that allows transfer of crypto coins to users',
       gameUrl:'https://yonatan-arm.github.io/Mr-BitCoin-Angular',
-      label:'Front-End',
-      tech:['Angular', 'TypeScript', 'Node.js']
+      label:'Frontend',
+      tech:['Angular', 'TypeScript']
     },
     {
       _id:"u102",
       title:'MisterBitcoin-React',
       description: 'An app that allows transfer of crypto coins to users',
       gameUrl:'https://yonatan-arm.github.io/misterBitcoin',
-      label:'Front-End',
-      tech:['React', 'Redux', 'Node.js']
+      label:'Frontend',
+      tech:['React', 'Redux']
     },
     {
       _id:"u103",
@@ -43,47 +43,47 @@ const PROJECTS = [
       title:'Minesweeper',
       description: 'A single-player puzzle the goal is to clear a rectangular board containing hidden "mines" or bombs without detonating any of them',
       gameUrl:'https://yonatan-arm.github.io/Mine-Sweeper/',
-      label:'Front-End',
-      tech:['JavaScript']
+      label:'Frontend',
+      tech:['JavaScript', 'Html' , 'Css']
     },
     {
       _id:"u105",
       title:'Pacman',
       description: 'The player controls a character through an enclosed maze, trying to collect all coins without the enemies killing it',
-      label:'Front-End',
-      tech:['JavaScript']
+      label:'Frontend',
+      tech:['JavaScript', 'Html' , 'Css']
     },
     {
       _id:"u106",
       title:'Meme-Genrartor',
       description: 'An image maker that lets you add custom resizable text, images, and much more to templates. More features: saving, sharing on Facebook and download',
       gameUrl:'https://yonatan-arm.github.io/Meme-Genrartor/',
-      label:'Front-End',
-      tech:['JavaScript']
+      label:'Frontend',
+      tech:['JavaScript', 'Html' , 'Css']
     },
     {
       _id:"u107",
       title:'BallBoard',
       description: 'A players that needs to eat all the balls in the board',
       gameUrl:'https://yonatan-arm.github.io/ball-board/',
-      label:'Front-End',
-      tech:['JavaScript']
+      label:'Frontend',
+      tech:['JavaScript', 'Html' , 'Css']
     },
     {
       _id:"u108",
       title:'Touch-Nums',
       description: 'the user need to  click the numbers by the order',
       gameUrl:'https://yonatan-arm.github.io/touch-nums/',
-      label:'Front-End',
-      tech:['JavaScript']
+      label:'Frontend',
+      tech:['JavaScript', 'Html' , 'Css']
     },
     {
       _id:"u109",
       title:'Guess-Who',
       description: 'A guess who tree. Allows the user to add more data to the tree',
       gameUrl:'https://yonatan-arm.github.io/guess-who/',
-      label:'Front-End',
-      tech:['JavaScript']
+      label:'Frontend',
+      tech:['JavaScript', 'Html' , 'Css']
     },
 
     {
@@ -91,8 +91,8 @@ const PROJECTS = [
       title:'Book-Shop',
       description: 'Allows the user to see books in the book store. The user can: read, update price, delete and add new book. ',
       gameUrl:'https://yonatan-arm.github.io/book-shop/',
-      label:'Front-End',
-      tech:['JavaScript']
+      label:'Frontend',
+      tech:['JavaScript', 'Html' , 'Css']
     },
   ]
 

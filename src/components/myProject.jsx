@@ -21,14 +21,16 @@ export default class myProject extends Component {
     if (!projects) return <div>Loading...</div>;
     return (
       <Fade left>
-      <div className="projects flex column align-center">
+        <section className="project-section">
         <h1> My Projects </h1>
+      <div className="projects flex column align-center">
           <div className="projects-container flex">
             {projects.map(project =>     
               <ProjectPreview key={project._id} project={project} />     
                )}
           </div>
       </div>
+      </section>
       </Fade>
     );
   }
