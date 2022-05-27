@@ -13,7 +13,7 @@ export default function About() {
         <span className="hero-name"> Hi There 👋 I'm Yonatan Arm</span>
         <span>A Full-Stack / Frontend Web Developer</span>
         <button
-          className="flex justify-center align-center"
+          className="flex justify-center align-center btn"
           onClick={moveToContact}
         >
           {" "}
