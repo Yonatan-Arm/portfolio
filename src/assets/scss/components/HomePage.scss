@@ -2,7 +2,6 @@
   @include for-mobile-layout {
     padding: 20px
   }
-
   position: relative;
   padding: 40px 80px;
   color: #fff;
@@ -20,8 +19,11 @@
   background-position: 50% 100%;
   position: absolute;
   height: 85vh;
+  @include for-small-layout {
+    height: 95vh !important;
+  }
   @include for-mobile-layout {
-    height: 90vh !important;
+    height: 90vh ;
   }
 }
 
@@ -61,13 +63,22 @@
 }
 
 .hero {
-  min-height: 60vh;
-  padding: 20px;
+  height: 65vh;
   gap: 20px;
   justify-content: space-around;
+  @include for-small-layout {
+    padding: unset;
+   }
+  @include for-mobile-layout {
+    height: 80vh;
+   }
   .profile-container {
     margin-top:rem(30px);
     img {
+      @include for-small-layout {
+        width: rem(110px) !important;
+        height: rem(110px) !important;
+      }
       @include for-mobile-layout {
        top: 20px;
        right: 5px;

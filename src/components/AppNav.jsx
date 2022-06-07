@@ -1,6 +1,6 @@
 import React from 'react'
 import Logo from '../assets/imgs/logo.svg'
-import hero from '../assets/imgs/hero.jpg'
+
 
 
 export const AppNav = () => {
@@ -18,7 +18,6 @@ const moveToContact =  () => {
 
   return (
     <> 
-          <img src={hero} className="hero-img"/>
       <nav className='flex space-between justify-center align-center nav '>
         <img src={Logo} alt="logo" />
         <div className='flex nav-feature'>

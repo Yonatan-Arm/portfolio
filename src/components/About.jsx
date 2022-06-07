@@ -1,13 +1,14 @@
 import React from "react";
 import Fade   from 'react-reveal/Zoom';
-import backProfile from '../assets/imgs/back-profile.svg'
+import hero from '../assets/imgs/hero.jpg'
+
 const moveToContact = () => {
   window.scrollTo(0, 3000);
 };
 export default function About() {
   return (
     <Fade left>
-
+    <img src={hero} className="hero-img" alt='hero'/>
     <div className="hero flex  wrap ">
       <div className="flex column info">
         <span className="hero-name"> Hi There 👋 I'm Yonatan Arm</span>
@@ -22,7 +23,7 @@ export default function About() {
       </div>
       <div className="profile-container flex">
         <div>
-          <img src={require("../assets/imgs/profile-link.jpeg")} />
+          <img src={require("../assets/imgs/profile-link.jpeg")} alt="profile-img" />
         </div>
       </div>
     </div>
