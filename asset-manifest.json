@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.a6973e1b.css",
-    "main.js": "/portfolio/static/js/main.b385c572.js",
+    "main.js": "/portfolio/static/js/main.42162822.js",
     "static/js/787.cda612ba.chunk.js": "/portfolio/static/js/787.cda612ba.chunk.js",
-    "static/media/hero.jpg": "/portfolio/static/media/hero.bea7e989bd8fda172640.jpg",
-    "static/media/profile-link.jpeg": "/portfolio/static/media/profile-link.12216ce1b2304c12eb60.jpeg",
+    "static/media/hero.jpg": "/portfolio/static/media/hero.0bc0963daea7d01acd8d.jpg",
+    "static/media/profile-link.jpeg": "/portfolio/static/media/profile-link.40fba578db5c616260cb.jpeg",
     "static/media/Yonatan_Arm_Resume.pdf": "/portfolio/static/media/Yonatan_Arm_Resume.3cdfe2bcfe6e925b6edb.pdf",
     "static/media/profile.svg": "/portfolio/static/media/profile.ca6058504c91f863e1064eab7868cbd1.svg",
     "static/media/logo.svg": "/portfolio/static/media/logo.d43a893a7b0943e93f8d7cb09892aca7.svg",
@@ -13,11 +13,11 @@
     "static/media/whatsappLogo.svg": "/portfolio/static/media/whatsappLogo.254e061878bd4658ce016076739cabd4.svg",
     "index.html": "/portfolio/index.html",
     "main.a6973e1b.css.map": "/portfolio/static/css/main.a6973e1b.css.map",
-    "main.b385c572.js.map": "/portfolio/static/js/main.b385c572.js.map",
+    "main.42162822.js.map": "/portfolio/static/js/main.42162822.js.map",
     "787.cda612ba.chunk.js.map": "/portfolio/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a6973e1b.css",
-    "static/js/main.b385c572.js"
+    "static/js/main.42162822.js"
   ]
 }
