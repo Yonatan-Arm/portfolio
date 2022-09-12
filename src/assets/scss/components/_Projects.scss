@@ -3,19 +3,21 @@
         padding: 10px
       }
     padding: rem(20px);
-    width: 100%;
-    overflow-x: scroll;
     .projects-container{
         gap: rem(15px);       
-        padding: rem(10px);
-        max-width: -webkit-fill-available;
+        padding: rem(12px);
+        overflow-x: scroll;
+        width: 100%;
+        scroll-snap-type: x mandatory;
+        scroll-padding: 24px;
+        border-radius: 8px;
     }
 }
-.projects::-webkit-scrollbar {
+.projects-container::-webkit-scrollbar {
     width: 20px;
   }
-.projects::-webkit-scrollbar-thumb {
-    background: $clr6; 
+.projects-container::-webkit-scrollbar-thumb {
+    background: $clr10; 
     border-radius: 10px;
   }
   .project-section{
@@ -23,11 +25,13 @@
           text-align: center;
           font-size: 2rem;
           margin-bottom: rem(20px);
+          font-weight: 600;
       }
       margin-top: rem(80px);
   }
 
 .project-card{
+    scroll-snap-align: start;
     @include for-mobile-layout {
         .project-card-front{
         width: 70vw !important;
@@ -35,17 +39,17 @@
         img{
             flex: 1 1 rem(100px);
             aspect-ratio: 1 / 1;
-            object-fit: cover;
         }
         h2{
             flex: 1 1 rem(100px);
           
       }
     }
-//   transform-style: preserve-3d;
   transition: transform .5s;
   border-radius: rem(8px);
   padding: 1rem;
+  color: #222;
+
     .project-card-front{
         width: rem(250px);
         height: 100%;
@@ -57,11 +61,12 @@
             flex: 1 1 rem(200px);
            text-align: center;
            margin-bottom: 10px;
+             font-weight: 500;
         }
         span{
            margin-top: 5px;
             font-size: 1rem;
-            color:lightgray
+            color:lightgray;
         }
     }
     .project-info{
@@ -75,7 +80,7 @@
         }
     }
     transform: rotateY(180deg);
-    box-shadow: .4rem .4rem .4rem .4rem $clr6;
+    box-shadow: .4rem .4rem .4rem .4rem $clr7;
     .project-card-front{
         display: none;
     }
@@ -86,6 +91,7 @@
         transform: rotateY(180deg);
         gap: rem(10px);
         .project-tech{
+            font-weight: 550;
             h3{
                 text-decoration: underline;
             }

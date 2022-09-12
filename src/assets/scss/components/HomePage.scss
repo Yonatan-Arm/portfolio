@@ -2,39 +2,45 @@
   @include for-mobile-layout {
     padding: 20px
   }
+
   position: relative;
   padding: 40px 80px;
-  color: #fff;
-  background: radial-gradient(circle, #212121 0%, #1d1d1d 56%, #1d1d1d 100%);
+  color: #222;
+  background: linear-gradient(32deg, rgba(217, 231, 255, 1) 53%, rgb(174 199 236)  62%);
+
 }
 
 .main-app {
   gap: 20px;
 }
-.hero-img{
+
+.hero-img {
   background-size: cover;
   left: 0;
-  top:0;
+  top: 0;
   width: 100%;
   background-position: 50% 100%;
   position: absolute;
   height: 85vh;
+
   @include for-small-layout {
     height: 95vh !important;
   }
+
   @include for-mobile-layout {
-    height: 90vh ;
+    height: 90vh;
   }
 }
 
 .nav {
   @include for-mobile-layout {
     padding: 0;
-    button{
+    button {
       font-size: 1rem !important;
 
     }
   }
+
   padding: 0 10px;
   height: 80px;
   margin-bottom: 20px;
@@ -46,17 +52,19 @@
     background: transparent;
     color: inherit;
     border: unset;
+    font-weight: 600;
   }
 
   button:hover {
     cursor: pointer;
-    color: $clr6;
+    color: $clr7;
   }
 
   img {
     @include for-mobile-layout {
       width: rem(100px);
     }
+
     height: 100%;
     width: rem(150px);
   }
@@ -64,40 +72,59 @@
 
 .hero {
   height: 65vh;
+  background-image: url('../../imgs/cool-background.svg');
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: system-ui;
   gap: 20px;
-  justify-content: space-around;
+  box-shadow:
+    rgba(22, 31, 39, 0.42) 0px 60px 123px -25px,
+    rgba(19, 26, 32, 0.08) 0px 35px 75px -35px;
+  border-radius: 12px;
+  border: 1px solid;
+  border-color:
+    rgb(213, 220, 226) rgb(213, 220, 226) rgb(184, 194, 204);
+
   @include for-small-layout {
     padding: unset;
-   }
-  @include for-mobile-layout {
-    height: 80vh;
-   }
+  }
+
+  @include for-tablet-layout {
+    height: 50vh;
+  }
+
   .profile-container {
-    margin-top:rem(30px);
+    margin-top: 10%;
+
     img {
+      
       @include for-small-layout {
         width: rem(110px) !important;
         height: rem(110px) !important;
+        top: rem(20px) !important;
       }
+
       @include for-mobile-layout {
-       top: 20px;
-       right: 5px;
-       position: absolute;
+        right: 15px;
+        position: absolute;
       }
+
       @include for-wide-layout {
-       top: 20px;
-       right: 5px;
-       position: absolute;
-       width: rem(150px);
-       height: rem(150px);
+        top: rem(30px);
+        right: 20px;
+        position: absolute;
+        width: rem(150px);
+        height: rem(150px);
       }
+
       width: rem(200px);
       height: rem(200px);
       object-fit: cover;
       border-radius: 50%;
       z-index: 20;
-      position: relative;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
     }
 
@@ -108,15 +135,30 @@
   }
 
   .hero-name {
-    font-size: 2.5rem;
-    width: 60%;
+    font-size: 3rem;
+    font-weight: 650;
+       @include for-mobile-layout {
+        font-size: 2rem;
+      }
+
   }
 
   .info {
     font-size: 1.5rem;
     gap: 5px;
     transition: text-shadow .1s;
-    padding-top: rem(50px);
+    padding: rem(30px);
+    align-self: center;
+    @include for-small-layout {
+      align-self: flex-end;
+    }
+    @include for-tablet-layout {
+      margin-top: rem(50px);
+    }
+    span:first-child{
+      font-size: 2rem ;
+      color: $clr9 ;
+    }
 
     img {
       margin-top: rem(20px);
@@ -124,9 +166,7 @@
       height: rem(200px);
     }
 
-    span {
-      font-size: 2.5rem;
-    }
+
   }
 
   .info:hover {
@@ -141,11 +181,12 @@
     border: none;
     font-size: 1rem;
     font-weight: 400;
-    background-color: $clr6;
+    background-color: $clr3;
     color: #222;
   }
+
   .btn:hover {
-    box-shadow:  2px 5px 12px 0px #0B325E, -3px 12px 11px 10px rgba(0,0,0,0.6);
+    box-shadow: 2px 5px 12px 0px #0B325E, -3px 12px 11px 10px rgba(0, 0, 0, 0.6);
     -webkit-transition: all 1s ease-in;
     transition: all .2s ease-in;
     transform: translateY(-6px);

@@ -16,13 +16,15 @@
 
  
     h1{
-        border-bottom: 5px solid #fff;
+        border-bottom: 5px solid $clr5;
+        font-weight: 600;
     }
     span{
         margin-top: 20px;
         font-size: 1.2rem;
-        font-weight: 400;
-        color: $clr6;
+        font-weight: 550;
+        color: $clr5;
+        text-align: center;
     }
 
     form {
@@ -49,8 +51,8 @@
         input,textarea{
             color:rgba(255, 255, 255, 0.719);
             font-size: 1rem;
-            font-weight: 400;
-            background: $clr2;
+            font-weight: 600;
+            background: $clr5;
         }
         input,textarea:focus-visible{
            outline: none;
@@ -62,14 +64,15 @@
             height: 150px;
         }
         button{
-            background-color:  $clr6;
-            height: 30px;
+            background-color:  $clr5;
             width: 80px;
-            color: #222;
+            color: rgb(252, 248, 248);
             font-size: 1rem;
-            font-weight: 400;
+            font-weight: 550;
             margin-top: 20px;
-            border-radius: 7px;
+            border-radius: 10px;
+            padding: 5px;
+            
         }
         button:hover{          
             transform: rotate(360deg);

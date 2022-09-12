@@ -1,18 +1,20 @@
 import React from "react";
 import Fade   from 'react-reveal/Zoom';
-import hero from '../assets/imgs/hero.jpg'
+// import hero from '../assets/imgs/cool-background.svg'
 
 const moveToContact = () => {
-  window.scrollTo(0, 3000);
+  window.scrollTo(0, 3200);
 };
+
 export default function About() {
   return (
     <Fade left>
-    <img src={hero} className="hero-img" alt='hero'/>
-    <div className="hero flex  wrap ">
+    {/* <img src={hero} className="hero-img" alt='hero'/> */}
+    <div className="hero flex  wrap justify-center ">
       <div className="flex column info">
-        <span className="hero-name"> Hi There 👋 I'm Yonatan Arm</span>
-        <span>A Full-Stack / Frontend Web Developer</span>
+        <span>Hello...</span>
+        <span className="hero-name"> I'm Yonatan Arm</span>
+        <span>A Full Stack  Web Developer</span>
         <button
           className="flex justify-center align-center btn"
           onClick={moveToContact}

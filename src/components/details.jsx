@@ -17,7 +17,7 @@ export default function details() {
           <p>
             Full-Stack / Frontend Web Developer with hands-on experience in
             building progressive web applications using the latest web
-            technologies such as Node.js, Vue.js, Vuex, React.js and Angular. A
+            technologies such as React.js, Node.js, Vue.js, Vuex and Angular. A
             team player, hard worker, self-learner, responsible and adapt
             quickly to new environments.
           </p>

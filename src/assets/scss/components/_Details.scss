@@ -1,8 +1,8 @@
 .my-details{
     padding: 20px;
-    h2{
+    h1{
         margin-bottom: 20px;
-        font-size: 1.5rem;
+        font-weight: 600;
     }
     img{
         width: 40%;
@@ -18,16 +18,17 @@
         gap: 10px;
         p{
             width: 300px;
-            font-size: 1rem;
-            font-weight: 400;
+            font-size: 1.2rem;
+            font-weight: 600;
         }
         a{
-            font-size: 1rem;
-            font-weight: 500;
-            color: $clr6;
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: $clr7;
         }
         a:hover{
-             font-size: 1.1rem;
+             font-size: 1.4rem;
+             text-decoration: none;
         }
     }
 }

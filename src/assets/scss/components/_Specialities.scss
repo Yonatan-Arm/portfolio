@@ -3,6 +3,7 @@
     padding: 20px;
     h1{
         margin-bottom: 20px;
+        font-weight: 600;
     }
     .specialities-container{
         gap: 15px;
@@ -12,9 +13,9 @@
         gap: 10px;
         min-height: 400px;
         box-shadow: 0 1.6rem 2.4rem rgb(0 0 0 / 25%);
-        padding: 1.6rem 4.3rem 2.2rem 3.5rem;
+        padding: 1rem 3rem 2rem 3rem;
         border-radius: 8px;
-        border-bottom: 10px solid $clr6 ;
+        border-bottom: 10px solid $clr7 ;
         margin-bottom: rem(20px);
         h3{
             font-size: 1.4rem;
@@ -22,15 +23,15 @@
             font-weight: 600;
         }
         .text-primary{
-            color:$clr6;
+            color:$clr7;
         }
         p{
-            font-size: 1rem;
-            font-weight: 400;
+            font-size: 1.1rem;
+            font-weight: 600;
         }
     }
     .specialities-card:hover{
-        background-color: $clr6;
+        background-color: $clr7;
         color: #222;
     }
 
