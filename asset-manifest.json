@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1e62b4ac.css",
-    "main.js": "/portfolio/static/js/main.42162822.js",
+    "main.css": "/portfolio/static/css/main.cc4f23c8.css",
+    "main.js": "/portfolio/static/js/main.760c1395.js",
     "static/js/787.cda612ba.chunk.js": "/portfolio/static/js/787.cda612ba.chunk.js",
-    "static/media/hero.jpg": "/portfolio/static/media/hero.0bc0963daea7d01acd8d.jpg",
     "static/media/profile-link.jpeg": "/portfolio/static/media/profile-link.40fba578db5c616260cb.jpeg",
-    "static/media/Yonatan_Arm_Resume.pdf": "/portfolio/static/media/Yonatan_Arm_Resume.3cdfe2bcfe6e925b6edb.pdf",
-    "static/media/profile.svg": "/portfolio/static/media/profile.ca6058504c91f863e1064eab7868cbd1.svg",
-    "static/media/logo.svg": "/portfolio/static/media/logo.d43a893a7b0943e93f8d7cb09892aca7.svg",
+    "static/media/Yonatan_Arm_Resume.pdf": "/portfolio/static/media/Yonatan_Arm_Resume.4fdd6b49e03045ac78bd.pdf",
+    "static/media/profile.svg": "/portfolio/static/media/profile.1453d0184b75824dc521d356decefb15.svg",
+    "static/media/logo.svg": "/portfolio/static/media/logo.a853b2982be7b42b7ff0d99da3207a50.svg",
+    "static/media/cool-background.svg": "/portfolio/static/media/cool-background.b20ae7e8948898ef436c.svg",
     "static/media/linkdinLogo.svg": "/portfolio/static/media/linkdinLogo.06c61146f06c30aab706f46437723d83.svg",
     "static/media/githubLogo.svg": "/portfolio/static/media/githubLogo.96d9f11b94659ba51f6a17af1552a9f1.svg",
     "static/media/whatsappLogo.svg": "/portfolio/static/media/whatsappLogo.254e061878bd4658ce016076739cabd4.svg",
     "index.html": "/portfolio/index.html",
-    "main.1e62b4ac.css.map": "/portfolio/static/css/main.1e62b4ac.css.map",
-    "main.42162822.js.map": "/portfolio/static/js/main.42162822.js.map",
+    "main.cc4f23c8.css.map": "/portfolio/static/css/main.cc4f23c8.css.map",
+    "main.760c1395.js.map": "/portfolio/static/js/main.760c1395.js.map",
     "787.cda612ba.chunk.js.map": "/portfolio/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e62b4ac.css",
-    "static/js/main.42162822.js"
+    "static/css/main.cc4f23c8.css",
+    "static/js/main.760c1395.js"
   ]
 }
