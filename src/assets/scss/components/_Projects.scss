@@ -56,6 +56,7 @@
         img{
             flex: 1 1 rem(150px);
             aspect-ratio: 1 / 1;
+            background-size: cover;
         }
         h2{
             flex: 1 1 rem(200px);
@@ -65,8 +66,8 @@
         }
         span{
            margin-top: 5px;
-            font-size: 1rem;
-            color:lightgray;
+            font-size: 1.2rem;
+           font-weight: 550;
         }
     }
     .project-info{

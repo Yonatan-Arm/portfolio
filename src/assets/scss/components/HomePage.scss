@@ -53,6 +53,9 @@
     color: inherit;
     border: unset;
     font-weight: 600;
+    @include for-mobile-layout {
+      font-size: 1rem;
+    }
   }
 
   button:hover {
