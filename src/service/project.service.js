@@ -1,25 +1,24 @@
-import { storageService } from "./async.service.js";
+
 
 export const projectService = {
   query,
 };
 
-const STORAGE_KEY = "project_db";
 const PROJECTS = [
     {
       _id:"u100",
       title:'Airyny',
       description: 'Airyny is  market place app based application a version of the Airbnb for project management ',
       gameUrl:'https://airyny-yonatan.herokuapp.com/#/',
-      label:'Full stack',
-      tech:['Vue3', 'Vuex', 'Node.js', 'MongoDB'] ,
+      label:'Full Stack',
+      tech:['Vue', 'Vuex', 'Node.js', 'MongoDB'] ,
     },
     {
       _id:"u101",
       title:'jobi-app',
       description: 'Web application to manage my job hunt status and my workflow progress using MERN stack technologies',
       gameUrl:'https://jobi-yona.herokuapp.com/#/',
-      label:'Full stack',
+      label:'Full Stack',
       tech:['React' , 'Redux','Node.js', 'MongoDB']
     },
     {
@@ -35,16 +34,16 @@ const PROJECTS = [
       title:'sociel-media',
       description: 'Web application to send messages between users, and manage friends list using MERN stack technologies',
       gameUrl:'https://yonatan-arm-test.herokuapp.com/#/login',
-      label:'Full stack',
-      tech:['React.js', 'Node.js','socket io','scss' ,'MongoDB']
+      label:'Full Stack',
+      tech:['React', 'Node.js','socket io','scss' ,'MongoDB']
     },
     {
       _id:"u104",
       title:'MisterToy',
       description: 'Toy app that allows the user to add, edit and remove toys. More features: authentication, filter, search and sort',
       gameUrl:'https://enigmatic-anchorage-55210.herokuapp.com',
-      label:'Full stack',
-      tech:['Vue3', 'Vuex', 'Node.js', 'MongoDB']
+      label:'Full Stack',
+      tech:['Vue', 'Vuex', 'Node.js', 'MongoDB']
     },
     {
       _id:"u105",
@@ -107,8 +106,6 @@ const PROJECTS = [
 
 async function query() {
     try {
-    //   let projects = await storageService.query(STORAGE_KEY);
-    // if(!projects.length) projects = await storageService.postMany(STORAGE_KEY, PROJECTS);
     return PROJECTS;
   } catch (error) {
     throw new Error("error on quey FE", error);
