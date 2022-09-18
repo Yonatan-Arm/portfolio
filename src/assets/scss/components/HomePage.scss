@@ -105,16 +105,19 @@
       @include for-small-layout {
         width: rem(110px) !important;
         height: rem(110px) !important;
-        top: rem(20px) !important;
       }
 
       @include for-mobile-layout {
         right: 15px;
         position: absolute;
       }
+      @include for-tablet-layout {
+        width: rem(120px) !important;
+        height: rem(120px) !important;
+      }
 
       @include for-wide-layout {
-        top: rem(30px);
+        top: rem(20px);
         right: 20px;
         position: absolute;
         width: rem(150px);
