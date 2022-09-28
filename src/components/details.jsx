@@ -9,18 +9,18 @@ export default function details() {
     <Fade left>
       <div className="my-details flex column align-center">
         <HeadShake>
-          <h1> About Me</h1>
+          <h1> About</h1>
         </HeadShake>
         <div className="flex wrap justify-center details-container">
           <img src={devloperIcon} />
           <div className="details-info flex column justify-center align-center">
             <p>
-              Full-stack/front-end web developer with experience developing
+              Full-stack web developer with experience developing
               single-page applications using the latest web technologies. I'm a
-              very motivated, adaptable, and persistent worker. I enjoy
-              expanding my knowledge and skills and am passionate about solving
-              problems. I am a self-learner and have excellent interpersonal,
-              communication, and teamwork skills.
+              very motivated, adaptable and persistent worker. I enjoy expanding
+              my knowledge and skills and am passionate about solving problems.
+              I enjoy self-learning and have excellent interpersonal,
+              communication and teamwork skills.
             </p>
             <div>
               <a href={resume} download>

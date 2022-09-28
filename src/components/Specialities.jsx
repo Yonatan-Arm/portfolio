@@ -32,7 +32,7 @@ export default function Specialities() {
         <h3>Responsive Design</h3>
         <p>
           Specialized in "pixel perfect", responsive and web design. Good
-          Understanding of UI/UX concepts.
+          understanding of UI/UX concepts.
         </p>
       </div>
       <div className="specialities-card flex column justify-center align-center">

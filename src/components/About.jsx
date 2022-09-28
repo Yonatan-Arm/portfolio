@@ -14,7 +14,7 @@ export default function About() {
       <div className="flex column info">
         <span>Hello...</span>
         <span className="hero-name"> I'm Yonatan Arm</span>
-        <span>A Full Stack  Web Developer</span>
+        <span>A full-stack web developer</span>
         <button
           className="flex justify-center align-center btn"
           onClick={moveToContact}
