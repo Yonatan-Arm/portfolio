@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.12a91969.css",
-    "main.js": "/portfolio/static/js/main.7cf36d88.js",
+    "main.css": "/portfolio/static/css/main.fd9d161d.css",
+    "main.js": "/portfolio/static/js/main.302861c3.js",
     "static/js/787.cda612ba.chunk.js": "/portfolio/static/js/787.cda612ba.chunk.js",
     "static/media/profile-link.jpeg": "/portfolio/static/media/profile-link.40fba578db5c616260cb.jpeg",
     "static/media/Yonatan_Arm_Resume.pdf": "/portfolio/static/media/Yonatan_Arm_Resume.2cff9268ade412a9d882.pdf",
@@ -12,12 +12,12 @@
     "static/media/githubLogo.svg": "/portfolio/static/media/githubLogo.96d9f11b94659ba51f6a17af1552a9f1.svg",
     "static/media/whatsappLogo.svg": "/portfolio/static/media/whatsappLogo.254e061878bd4658ce016076739cabd4.svg",
     "index.html": "/portfolio/index.html",
-    "main.12a91969.css.map": "/portfolio/static/css/main.12a91969.css.map",
-    "main.7cf36d88.js.map": "/portfolio/static/js/main.7cf36d88.js.map",
+    "main.fd9d161d.css.map": "/portfolio/static/css/main.fd9d161d.css.map",
+    "main.302861c3.js.map": "/portfolio/static/js/main.302861c3.js.map",
     "787.cda612ba.chunk.js.map": "/portfolio/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.12a91969.css",
-    "static/js/main.7cf36d88.js"
+    "static/css/main.fd9d161d.css",
+    "static/js/main.302861c3.js"
   ]
 }
